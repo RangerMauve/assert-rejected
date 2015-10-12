@@ -1,0 +1,30 @@
+{
+  "name": "assert-rejected",
+  "version": "1.0.0",
+  "description": "Assert that a promise has been rejected, optionally with a message",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/assert-rejected.git"
+  },
+  "keywords": [
+    "assert",
+    "reject",
+    "test",
+    "promise",
+    "rejected",
+    "tap"
+  ],
+  "author": "rangermauve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/assert-rejected/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/assert-rejected",
+  "devDependencies": {
+    "blue-tape": "^0.1.10"
+  }
+}
