@@ -7,9 +7,10 @@ function assertRejected(promise, message) {
 		throw new Error("Assertion Error: Promise wasn't rejected");
 	}, function(e) {
 		if (message === undefined)
-			return;
+			return e;
 		if (e.message !== message)
-			throw new Error(wrongMessage(message, e.message))
+			throw new Error(wrongMessage(message, e.message));
+		return e;
 	});
 }
 
