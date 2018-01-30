@@ -38,3 +38,5 @@ Checks whether a given promise has been rejected
 - `message` : Optionally specify what error the message should contain
 
 Returns a promise which resolves if everything is OK
+
+*Includes typescript typings.*
